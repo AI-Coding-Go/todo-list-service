@@ -1,0 +1,41 @@
+package org.example.todolistserviceleo.dto;
+
+import jakarta.validation.constraints.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+
+import java.time.LocalDateTime;
+
+/**
+ * 创建任务请求DTO
+ */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class TodoTaskCreateRequest {
+
+    /**
+     * 任务标题（必填，限50字以内）
+     */
+    @NotBlank(message = "请输入任务标题")
+    @Size(max = 50, message = "任务标题不能超过50个字符")
+    private String title;
+
+    /**
+     * 任务描述（可选，限500字以内）
+     */
+    @Size(max = 500, message = "任务描述不能超过500个字符")
+    private String description;
+
+    /**
+     * 优先级（默认中）
+     */
+    private String priority = "MEDIUM";
+
+    /**
+     * 截止时间（可选）
+     */
+    @Future(message = "截止时间必须是未来时间")
+    private LocalDateTime deadline;
+}
