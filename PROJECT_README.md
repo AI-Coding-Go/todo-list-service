@@ -104,10 +104,10 @@ npm start
 ## 🗂️ 项目结构
 
 ```
-todo-list-service-leo/
+todo-list-service/
 ├── data/                    # SQLite 数据库文件目录
 │   └── todo.db             # SQLite 数据库文件
-├── src/main/java/org/example/todolistserviceleo/
+├── src/main/java/org/example/todolistservice/
 │   ├── controller/          # 控制器层
 │   ├── service/             # 服务层
 │   ├── repository/          # 数据访问层
@@ -269,7 +269,7 @@ tail -f frontend.log
 ```dockerfile
 # Dockerfile示例
 FROM openjdk:17-jdk-slim
-COPY target/todo-list-service-leo-0.0.1-SNAPSHOT.jar app.jar
+COPY target/todo-list-service-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/app.jar"]
 ```

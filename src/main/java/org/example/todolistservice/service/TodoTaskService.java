@@ -1,10 +1,10 @@
-package org.example.todolistserviceleo.service;
+package org.example.todolistservice.service;
 
-import org.example.todolistserviceleo.dto.TodoTaskCreateRequest;
-import org.example.todolistserviceleo.dto.TodoTaskResponse;
-import org.example.todolistserviceleo.dto.TodoTaskUpdateRequest;
-import org.example.todolistserviceleo.entity.TodoTask;
-import org.example.todolistserviceleo.repository.TodoTaskRepository;
+import org.example.todolistservice.dto.TodoTaskCreateRequest;
+import org.example.todolistservice.dto.TodoTaskResponse;
+import org.example.todolistservice.dto.TodoTaskUpdateRequest;
+import org.example.todolistservice.entity.TodoTask;
+import org.example.todolistservice.repository.TodoTaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

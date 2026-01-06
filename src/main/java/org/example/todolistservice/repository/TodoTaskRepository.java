@@ -1,6 +1,6 @@
-package org.example.todolistserviceleo.repository;
+package org.example.todolistservice.repository;
 
-import org.example.todolistserviceleo.entity.TodoTask;
+import org.example.todolistservice.entity.TodoTask;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

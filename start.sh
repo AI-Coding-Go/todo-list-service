@@ -44,7 +44,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "🚀 启动后端服务..."
-nohup java -jar target/todo-list-service-leo-0.0.1-SNAPSHOT.jar > backend.log 2>&1 &
+nohup java -jar target/todo-list-service-0.0.1-SNAPSHOT.jar > backend.log 2>&1 &
 BACKEND_PID=$!
 echo "✅ 后端服务已启动，PID: $BACKEND_PID"
 

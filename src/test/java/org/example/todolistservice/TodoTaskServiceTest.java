@@ -1,10 +1,10 @@
-package org.example.todolistserviceleo;
+package org.example.todolistservice;
 
-import org.example.todolistserviceleo.dto.TodoTaskCreateRequest;
-import org.example.todolistserviceleo.dto.TodoTaskUpdateRequest;
-import org.example.todolistserviceleo.entity.TodoTask;
-import org.example.todolistserviceleo.repository.TodoTaskRepository;
-import org.example.todolistserviceleo.service.TodoTaskService;
+import org.example.todolistservice.dto.TodoTaskCreateRequest;
+import org.example.todolistservice.dto.TodoTaskUpdateRequest;
+import org.example.todolistservice.entity.TodoTask;
+import org.example.todolistservice.repository.TodoTaskRepository;
+import org.example.todolistservice.service.TodoTaskService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

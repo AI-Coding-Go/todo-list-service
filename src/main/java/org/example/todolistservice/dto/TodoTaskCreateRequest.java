@@ -1,4 +1,4 @@
-package org.example.todolistserviceleo.dto;
+package org.example.todolistservice.dto;
 
 import jakarta.validation.constraints.*;
 import lombok.Data;

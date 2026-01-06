@@ -1,4 +1,4 @@
-package org.example.todolistserviceleo.entity;
+package org.example.todolistservice.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;

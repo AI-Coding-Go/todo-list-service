@@ -78,7 +78,7 @@ spring.jpa.hibernate.ddl-auto=update
 ## 📁 项目结构
 
 ```
-todo-list-service-leo/
+todo-list-service/
 ├── data/                    # SQLite 数据库文件目录
 │   └── todo.db             # SQLite 数据库文件
 ├── src/main/resources/      # 配置文件

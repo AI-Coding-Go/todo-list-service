@@ -1,9 +1,9 @@
-package org.example.todolistserviceleo.controller;
+package org.example.todolistservice.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import org.example.todolistserviceleo.dto.TodoTaskResponse;
-import org.example.todolistserviceleo.service.ReminderService;
+import org.example.todolistservice.dto.TodoTaskResponse;
+import org.example.todolistservice.service.ReminderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

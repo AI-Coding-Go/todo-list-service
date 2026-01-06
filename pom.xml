@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>todo-list-service-leo</artifactId>
+    <artifactId>todo-list-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>todo-list-service-leo</name>
-    <description>todo-list-service-leo</description>
+    <name>todo-list-service</name>
+    <description>todo-list-service</description>
     <url/>
     <licenses>
         <license/>

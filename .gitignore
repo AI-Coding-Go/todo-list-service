@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Node.js ###
+node_modules/
+
+### log ###
+backend.log
+frontend.log
+/frontend/frontend.log
+/frontend/backend.pid
+/frontend/frontend.pid

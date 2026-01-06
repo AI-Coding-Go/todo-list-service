@@ -1,4 +1,4 @@
-package org.example.todolistserviceleo.dto;
+package org.example.todolistservice.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -31,7 +31,7 @@ public class TodoTaskResponse {
     private String deadlineFormatted;
     private String completedAtFormatted;
 
-    public static TodoTaskResponse fromEntity(org.example.todolistserviceleo.entity.TodoTask task) {
+    public static TodoTaskResponse fromEntity(org.example.todolistservice.entity.TodoTask task) {
         TodoTaskResponse response = new TodoTaskResponse();
         response.setId(task.getId());
         response.setTitle(task.getTitle());

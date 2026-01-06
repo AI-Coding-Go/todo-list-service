@@ -1,8 +1,8 @@
-package org.example.todolistserviceleo.service;
+package org.example.todolistservice.service;
 
-import org.example.todolistserviceleo.dto.TodoTaskResponse;
-import org.example.todolistserviceleo.entity.TodoTask;
-import org.example.todolistserviceleo.repository.TodoTaskRepository;
+import org.example.todolistservice.dto.TodoTaskResponse;
+import org.example.todolistservice.entity.TodoTask;
+import org.example.todolistservice.repository.TodoTaskRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

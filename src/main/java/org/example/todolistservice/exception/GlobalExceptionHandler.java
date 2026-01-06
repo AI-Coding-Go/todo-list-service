@@ -1,4 +1,4 @@
-package org.example.todolistserviceleo.exception;
+package org.example.todolistservice.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

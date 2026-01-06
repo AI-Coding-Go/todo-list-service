@@ -1,4 +1,4 @@
-package org.example.todolistserviceleo.config;
+package org.example.todolistservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

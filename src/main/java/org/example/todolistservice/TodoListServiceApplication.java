@@ -1,4 +1,4 @@
-package org.example.todolistserviceleo;
+package org.example.todolistservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,9 +10,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @SpringBootApplication
 @EnableScheduling
-public class TodoListServiceLeoApplication {
+public class TodoListServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TodoListServiceLeoApplication.class, args);
+        SpringApplication.run(TodoListServiceApplication.class, args);
     }
 }
